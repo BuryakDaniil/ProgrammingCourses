@@ -1,0 +1,17 @@
+body {
+    color: orangered;
+    border: 10px dashed greenyellow;
+}
+p {
+    color: white;
+    border: 5px ridge darkolivegreen;
+}
+
+.with-border {
+    border: 5px ridge aliceblue;
+    color: black;
+}
+
+#emphasized-paragraph {
+    color: aquamarine;
+}

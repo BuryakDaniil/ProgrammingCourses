@@ -1,0 +1,130 @@
+body {
+    margin: 10px;
+    /*background-image:url("image/photo_2022-04-30_16-54-29.jpg");*/
+    background-image:url("image/123.jpg");
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+span {
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    border: 1px solid rgba(243, 239, 239, 0);
+
+}
+
+h1 {
+    font-size: 250%; /* Размер шрифта в процентах */ 
+    text-align: center;
+}
+
+.flex-class {
+    display: flex;
+}
+
+#nav {
+    justify-content: space-between;
+    height: 64px;
+    padding: 10px;
+}
+
+li {
+    outline: 2px solid #ebebeb00;
+    padding: 0;
+    margin: 0 2px 0 2px;
+    list-style-type: none;
+}
+
+.menu-items-container {
+    /*margin: 0;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+header {
+    background-color: #ebe8e600;
+}
+
+#advantages {
+    background-color: #b9b9b9;
+}
+
+#main-menu {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-item {
+    background-color: #f9fd0194;
+    padding: 10px;
+    display: block;
+}
+
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(43, 26, 26);
+}
+
+.button {
+    border: 1px solid rgb(47, 245, 8);
+}
+
+.left-menu-container {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.flex-container { 
+   display: flex; /* flex || inline-flex */ 
+}
+.b1 {
+    background: orange ; 
+    color: rgba(255, 255, 255, 0);
+    font-size: 15pt;
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */
+    position: relative;
+    left: 10%;
+    transform: translate(-50%, 0);
+    }
+   .b2 {
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 15pt;
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */
+    position: relative;
+    left:0%;
+    transform: translate(-40%, 0);
+   }
+   p {
+    color: rgb(0, 0, 0); /* Цвет текста */
+   }
+   div {
+    outline: 2px solid #f3f0f000;
+    color: rgb(0, 0, 0); /* Цвет текста */
+   }
+   a {
+    color: rgb(0, 0, 0); /* Цвет текста */
+   }
+   h2 {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 150%; /* Размер шрифта в процентах */ 
+   } 
+   p {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 11pt; /* Размер шрифта в пунктах */ 
+    text-align: center;
+   }
+   ul {
+       list-style: none;
+       display: flex;
+      }
